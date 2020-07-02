@@ -108,3 +108,19 @@ const box = document.getElementById("box");
 
 // orb.addEventListener("mouseEnter", orbEnter, false);
 // orb.addEventListener("mouseLeave", orbLeave, false);
+
+
+
+
+var div = document.getElementById("TD");
+div.onmouseover = function() {
+  var box = document.getElementById("box");
+  box.style.backgroundColor = "#0c0b3d";
+};
+div.onmouseout = function() {
+  var box = document.getElementById("box");
+  box.style.backgroundColor = "#325769";
+};
+
+const TD = document.getElementById("TD");
+

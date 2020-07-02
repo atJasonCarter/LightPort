@@ -50,7 +50,7 @@ h5 {
   padding-bottom: 5px;
   text-overflow: ellipsis;
   mix-blend-mode: overlay;
-  opacity: 0.7;
+  opacity: 1;
   text-transform: uppercase;
 }
 
@@ -64,8 +64,18 @@ h6 {
   padding-bottom: 5px;
   text-overflow: ellipsis;
   mix-blend-mode: overlay;
-  opacity: 0.7;
+  opacity: 1;
   text-transform: uppercase;
+}
+
+p{
+  font-size: .75vw;
+  color: var(--black);
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  line-height: 134%;
+
 }
 
 a {
@@ -80,7 +90,7 @@ a {
   text-transform: uppercase;
   transition: all 150ms ease;
 }
-li:hover {
+.linav:hover {
   transform: translate(-33%, 0%) scale(1.33);
 }
 .name {
@@ -107,6 +117,21 @@ li:hover {
   font-weight: 500;
   border: 1.5px var(--black) solid;
   top: -20px;
+}
+
+
+.w{
+font-size: .7vw;
+    color: var(--black);
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 500;
+    align-self: flex-end;
+    mix-blend-mode: overlay;
+    opacity: 1;
+    text-transform: uppercase;
+    margin-bottom: -6px;
+  
 }
 
 @font-face {

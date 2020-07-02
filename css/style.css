@@ -12,7 +12,7 @@
 .grain2 {
   z-index: 4;
   mix-blend-mode: soft-light;
-  opacity: 0.4;
+  opacity: 0.225;
 }
 .grain {
   height: 100vh;
@@ -96,7 +96,7 @@
   padding-top: 188px;
   display: inline;
   position: relative;
-  grid-column: 1/9;
+  grid-column: 1/13;
 }
 
 /* -- */
@@ -112,6 +112,7 @@
   z-index: 60;
   border: 1.5px solid var(--black);
   grid-column-start: 9;
+  grid-column-end: 13;
 }
 
 .rightHalf {
@@ -227,11 +228,13 @@ body * {
   cursor: none;
 }
 
-li {
+/* Nav */
+.linav{
   padding: 0.8vw;
   text-align: right;
   transition: all 250ms ease;
 }
+
 
 .nav {
   position: sticky;
@@ -250,3 +253,44 @@ li {
 .uxd {
   grid-column: 2/9;
 }
+
+/* Work header */
+.w-header{
+  grid-column: 1/5;
+
+}
+.line-f{
+  grid-column: 1/5;
+  height:1.5px;
+  background-color: var(--black);
+  margin-bottom: 24px;
+  margin-top:12px;
+  margin-left: 24px;
+ }
+ .line-0{
+  grid-column: 1/5;
+  height:1.5px;
+  background-color: var(--black);
+  margin-bottom: 24px;
+  margin-top:12px;
+ }
+ .w-t{
+   padding-left: 24px;
+ }
+ .w-h-spacer{
+   grid-column: 5/13;
+ }
+
+ /* work */
+ul.work{
+  grid-column: 1/12;
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 24px;
+  justify-content: space-between;
+  margin-top:48px;
+}
+
+ .w-li{
+top:24px;
+ }
