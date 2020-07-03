@@ -111,16 +111,56 @@ const box = document.getElementById("box");
 
 
 
-
-var div = document.getElementById("TD");
-div.onmouseover = function() {
+//TD 
+var TDHover = document.getElementById("TD");
+TDHover.onmouseover = function() {
   var box = document.getElementById("box");
   box.style.backgroundColor = "#0c0b3d";
 };
-div.onmouseout = function() {
+TDHover.onmouseout = function() {
   var box = document.getElementById("box");
   box.style.backgroundColor = "#325769";
 };
 
+
+// TD Dashboard
+var TDdbHover = document.getElementById("TDdb");
+TDdbHover.onmouseover = function() {
+  var box = document.getElementById("box");
+  box.style.backgroundColor = "#0c0b3d";
+};
+TDdbHover.onmouseout = function() {
+  var box = document.getElementById("box");
+  box.style.backgroundColor = "#325769";
+};
+// Build Audience
+var TDbaHover = document.getElementById("TDba");
+TDbaHover.onmouseover = function() {
+  var box = document.getElementById("box");
+  box.style.backgroundColor = "#0c0b3d";
+};
+TDbaHover.onmouseout = function() {
+  var box = document.getElementById("box");
+  box.style.backgroundColor = "#325769";
+};
+// Check analytics
+var TDcaHover = document.getElementById("TDca");
+TDcaHover.onmouseover = function() {
+  var box = document.getElementById("box");
+  box.style.backgroundColor = "#0c0b3d";
+};
+TDcaHover.onmouseout = function() {
+  var box = document.getElementById("box");
+  box.style.backgroundColor = "#325769";
+};
+
+
+
+// Get element by ID
+
+
 const TD = document.getElementById("TD");
+const TDdb = document.getElementById("TDdb");
+const TDba = document.getElementById("TDba");
+const TDca = document.getElementById("TDca");
 
