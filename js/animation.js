@@ -115,7 +115,7 @@ const box = document.getElementById("box");
 var TDHover = document.getElementById("TD");
 TDHover.onmouseover = function() {
   var box = document.getElementById("box");
-  box.style.backgroundColor = "#0c0b3d";
+  box.style.backgroundColor = "rgb(139, 155, 212)";
 };
 TDHover.onmouseout = function() {
   var box = document.getElementById("box");
@@ -127,7 +127,7 @@ TDHover.onmouseout = function() {
 var TDdbHover = document.getElementById("TDdb");
 TDdbHover.onmouseover = function() {
   var box = document.getElementById("box");
-  box.style.backgroundColor = "#0c0b3d";
+  box.style.backgroundColor = "rgb(139, 155, 212)";
 };
 TDdbHover.onmouseout = function() {
   var box = document.getElementById("box");
@@ -137,7 +137,7 @@ TDdbHover.onmouseout = function() {
 var TDbaHover = document.getElementById("TDba");
 TDbaHover.onmouseover = function() {
   var box = document.getElementById("box");
-  box.style.backgroundColor = "#0c0b3d";
+  box.style.backgroundColor = "rgb(139, 155, 212)";
 };
 TDbaHover.onmouseout = function() {
   var box = document.getElementById("box");
@@ -147,7 +147,7 @@ TDbaHover.onmouseout = function() {
 var TDcaHover = document.getElementById("TDca");
 TDcaHover.onmouseover = function() {
   var box = document.getElementById("box");
-  box.style.backgroundColor = "#0c0b3d";
+  box.style.backgroundColor = "rgb(139, 155, 212)";
 };
 TDcaHover.onmouseout = function() {
   var box = document.getElementById("box");
@@ -163,4 +163,6 @@ const TD = document.getElementById("TD");
 const TDdb = document.getElementById("TDdb");
 const TDba = document.getElementById("TDba");
 const TDca = document.getElementById("TDca");
+
+
 
