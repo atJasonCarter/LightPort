@@ -8,16 +8,62 @@
   --white: #fcfafd;
 }
 
+@media all and (max-width: 768px) {
+  h1 {
+    font-size: 9em !important;
+    letter-spacing: -11.5px !important;
+  }
+  h1.Carter {
+    top: -4.77vh;
+  }
+  div.box {
+    width: calc(100vw - 3.5px);
+    z-index: 9999;
+  }
+  div.nav {
+    flex-direction: row;
+    z-index: 99999;
+    grid-column: 1/13;
+    top: 0px;
+    padding: 16px;
+  }
+  .nav > ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  li > a {
+    font-size: 1.2em;
+  }
 
-@media miz
+  div.name {
+    grid-column-end: 6;
+    align-self: center;
+    justify-self: center;
+    position: relative;
+    top: -348px;
+    right: auto;
+    left: auto;
+  }
+  h2 {
+    font-size: 1.7em !important;
+  }
+}
 
-
-
-
-
-
-
-
+@media all and (min-width: 1320px) and (max-width: 769px) {
+  .w-t,
+  .w-0 {
+    font-size: 0.9vw;
+    line-height: 140%;
+    opacity: 0.7;
+  }
+  .w-header {
+    margin-right: 46px;
+  }
+  .work {
+    grid-gap: 32px;
+  }
+}
 
 .grain,
 .grain2 {
@@ -240,12 +286,11 @@ body * {
 }
 
 /* Nav */
-.linav{
+.linav {
   padding: 0.8vw;
   text-align: right;
   transition: all 250ms ease;
 }
-
 
 .nav {
   position: sticky;
@@ -266,46 +311,44 @@ body * {
 }
 
 /* Work header */
-.w-header{
+.w-header {
   grid-column: 1/5;
-
-
+  font-size: 4.25vw;
 }
-.line-f{
+.line-f {
   grid-column: 1/5;
-  height:1.5px;
+  height: 1.5px;
   background-color: var(--black);
   margin-bottom: 24px;
-  margin-top:12px;
-
- }
- .line-0{
+  margin-top: 12px;
+}
+.line-0 {
   grid-column: 1/5;
-  height:1.5px;
+  height: 1.5px;
   background-color: var(--black);
   margin-bottom: 24px;
-  margin-top:12px;
- }
- .line-3{
+  margin-top: 12px;
+}
+.line-3 {
   grid-column: 1/13;
-  width:67.5vw;
-  height:2.5px;
- }
- .w-h-spacer{
-   grid-column: 5/13;
- }
+  width: 24.5vw;
+  height: 2.5px;
+}
+.w-h-spacer {
+  grid-column: 5/13;
+}
 
- /* work */
-ul.work{
-  grid-column: 1/12;
-  display:grid;
+/* work */
+ul.work {
+  grid-column: 1/13;
+  display: grid;
   grid-template-columns: repeat(3, 1fr);
 
   justify-content: space-between;
-  margin-top:48px;
-  grid-gap:48px;
+  margin-top: 48px;
+  grid-gap: 48px;
 }
 
- .w-li{
-top:24px;
- }
+.w-li {
+  top: 24px;
+}

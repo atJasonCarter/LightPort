@@ -68,15 +68,13 @@ h6 {
   text-transform: uppercase;
 }
 
-p{
-  font-size: .75vw;
+p {
+  font-size: 0.75vw;
   color: var(--black);
   font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 500;
   line-height: 134%;
-  
-
 }
 
 a {
@@ -120,19 +118,17 @@ a {
   top: -20px;
 }
 
-
-.w{
-font-size: .7vw;
-    color: var(--black);
-    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 500;
-    align-self: flex-end;
-    mix-blend-mode: overlay;
-    opacity: 1;
-    text-transform: uppercase;
-    margin-bottom: -6px;
-  
+.w {
+  font-size: 0.7vw;
+  color: var(--black);
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  align-self: flex-end;
+  mix-blend-mode: overlay;
+  opacity: 1;
+  text-transform: uppercase;
+  margin-bottom: -6px;
 }
 
 @font-face {
@@ -172,4 +168,10 @@ font-size: .7vw;
   src: url("../fonts/GrifoLBlack.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
+}
+
+@media all and (min-width: 769px) {
+  h1.jason {
+    color: red;
+  }
 }
