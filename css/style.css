@@ -19,6 +19,7 @@
   div.box {
     width: calc(100vw - 3.5px);
     z-index: 9999;
+    height: 340px;
   }
   div.nav {
     flex-direction: row;
@@ -34,10 +35,14 @@
   }
   li > a {
     font-size: 1.2em;
+    color: var(--black);
+  }
+  .linav:hover {
+    transform: translate(0%, 33%) scale(1.33) !important;
   }
 
   div.name {
-    grid-column-end: 6;
+    grid-column-end: 7;
     align-self: center;
     justify-self: center;
     position: relative;
@@ -144,7 +149,7 @@
   left: -20vw;
   height: 441px;
   width: 100%;
-  background-color: var(--third);
+  background-color: var(--primary);
   border: 1.5px solid var(--black);
   z-index: 50;
   transition: all 600ms ease-in-out;

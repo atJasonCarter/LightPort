@@ -169,9 +169,3 @@ a {
   font-weight: 900;
   font-style: normal;
 }
-
-@media all and (min-width: 769px) {
-  h1.jason {
-    color: red;
-  }
-}
