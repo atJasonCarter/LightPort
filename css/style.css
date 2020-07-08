@@ -53,6 +53,9 @@
   h2 {
     font-size: 1.7em !important;
   }
+  h5 {
+    font-size: 1em !important;
+  }
 }
 
 @media all and (min-width: 1320px) and (max-width: 769px) {
