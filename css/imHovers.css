@@ -4,7 +4,7 @@
   .tddimg:hover .tddimghover-Purple{
   fill: #E2E6F8;
   
-  rx: 4px;
+  rx: 2px;
   stroke: #E2E6F8;
   }
   .tddimg:hover .tddimghover-PurpleBG{
@@ -27,13 +27,13 @@
 
   .tdaimg:hover .tdAudiences-FormBG{
   fill: #fff;
-  rx:4px;
+  rx: 2px;
   x: 10.5;
   stroke: #fff;
   }
   .tdaimg:hover .tdAudiences-header{
     fill: #E2E6F8;
-    rx: 4px;
+    rx: 2px;
     stroke: #E2E6F8;
     }
   .tdaimg:hover .tdAudiences-SMall{
@@ -46,7 +46,7 @@
     stroke:#E2E6F8;
     width: 70px;
     height: 79px;
-    rx: 4px;
+    rx: 2px;
 
   }
   .tdaimg:hover .TDA-ASM2{
@@ -54,7 +54,7 @@
     stroke: #fff;
     y: 209.5;
     x:360.5;
-    rx:4px;
+    rx: 2px;
     opacity: 1!important;
     height: 31px;
     width: 70px;
@@ -68,7 +68,7 @@
     fill: #43506A;
     stroke: #43506A;
     opacity: 1!important;
-    rx:4px;
+    rx: 2px;
     x:21.5;
     y:130.5;
     width:318px;
@@ -78,7 +78,7 @@
     fill: #BEC7EC;
     stroke: #BEC7EC;
     opacity: 1!important;
-    rx:4px;
+    rx: 2px;
     x:21.5;
     y:231.5;
     width:318px;
@@ -88,7 +88,7 @@
     fill: #E2E6F8;
     stroke: #E2E6F8;;
     opacity: 1!important;
-    rx:4px;
+    rx: 2px;
     x:21.5;
     y:332.5;
     width:318px;

@@ -49,7 +49,7 @@ h5 {
   align-self: flex-end;
   padding-bottom: 5px;
   text-overflow: ellipsis;
-  mix-blend-mode: overlay;
+  
   opacity: 1;
   text-transform: uppercase;
 }

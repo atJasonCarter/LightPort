@@ -340,7 +340,7 @@
 .brownHalf {
   z-index: 62;
   margin-right: 1px;
-  background: #693738;
+  background: linear-gradient(45deg, #2f2626, #693738);
   transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
     rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
   transform-style: preserve-3d;
