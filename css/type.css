@@ -78,6 +78,9 @@ p {
 }
 .w-0 {
   margin-top: -16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 a {
@@ -114,12 +117,12 @@ a {
   position: relative;
 }
 
-.uxd:hover {
+/* .uxd:hover {
   font-family: "Flow";
   font-weight: 500;
   border: 1.5px var(--black) solid;
   top: -20px;
-}
+} */
 
 .w {
   font-size: 0.7vw;

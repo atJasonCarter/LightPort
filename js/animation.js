@@ -1,44 +1,72 @@
 console.log("hello");
 
 // Colors
-var t1 = anime.timeline({
+var t2 = anime.timeline({
   easing: "easeOutExpo",
   duration: 18000,
   loop: true
 });
 
-t1.add({
-  targets: ".blue, .el",
-  duration: 6000,
-  keyframes: [
-    { opacity: 0 },
-    { opacity: 0.8 },
-    { opacity: 0.4 },
-    { opacity: 1 }
-  ]
+
+t2.add({
+  targets: ".blue",
+opacity:[
+  {value:0, duration:6000},
+  {value:.5, duration:3000, delay: 4000},
+  {value: 1, duration:2000, delay: 3000},
+  {value:.8, duration:3000, delay: 4000},
+  {value:0, duration:6000}
+],
+// translateX: [
+//   { value: -40, duration: 6000, delay: 6000 },
+//   { value: 0, duration: 7000, delay: 7000 }
+// ],
+// translateY: [
+//   { value: -50, duration: 6000 },
+//   { value: 50, duration: 6000, delay: 6000 },
+//   { value: 0, duration: 6000, delay: 6000 }
+// ],
+// rotate: [
+// {value: 0, duration:9000},
+// {value: 90, duration:9000},
+// ]
+
 })
-  .add({
-    targets: ".red, .el",
-    duration: 6000,
-    keyframes: [
-      { opacity: 0 },
-      { opacity: 0.57 },
-      { opacity: 0.87 },
-      { opacity: 0.37 }
-    ]
-  })
-  .add({
-    targets: ".green, .el",
-    duration: 6000,
-    keyframes: [
-      { opacity: 0 },
-      { opacity: 0.37 },
-      { opacity: 0.87 },
-      { opacity: 0.27 },
-      { opacity: 0.67 },
-      { opacity: 0.27 }
-    ]
-  });
+
+// t1.add({
+//   targets: ".blue, .el",
+//   duration: 6000,
+//   keyframes: [
+//     { opacity: 0 },
+//     { opacity: 0.8 },
+//     { opacity: 0.4 },
+//     { opacity: 1 }
+//   ]
+// })
+//   .add({
+//     targets: ".red, .el",
+//     duration: 6000,
+//     keyframes: [
+//       { opacity: 0 },
+//       { opacity: 0.57 },
+//       { opacity: 0.87 },
+//       { opacity: 0.37 }
+//     ]
+//   })
+//   .add({
+//     targets: ".green, .el",
+//     duration: 6000,
+//     keyframes: [
+//       { opacity: 0 },
+//       { opacity: 0.37 },
+//       { opacity: 0.87 },
+//       { opacity: 0.27 },
+//       { opacity: 0.67 },
+//       { opacity: 0.27 }
+//     ]
+//   });
+
+
 //    end colors
 
 // begin Grain
@@ -84,7 +112,7 @@ div.onmouseover = function() {
 };
 div.onmouseout = function() {
   var box = document.getElementById("box");
-  box.style.backgroundColor = "#325769";
+  box.style.backgroundColor = "#f75534";
 };
 
 const orb = document.getElementById("orb");

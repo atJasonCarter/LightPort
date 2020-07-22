@@ -1,0 +1,18 @@
+<svg width="440" height="440" viewBox="0 0 440 440" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="0.5" y="29.5" width="439" height="410" fill="white" stroke="black"/>
+<rect x="0.5" y="0.5" width="439" height="29" stroke="black"/>
+<circle cx="16" cy="15" r="9.5" fill="black" stroke="black"/>
+<circle cx="40" cy="15" r="9.5" stroke="black"/>
+<circle cx="64" cy="15" r="9.5" stroke="black"/>
+<rect x="10.5" y="40.5" width="419" height="69" stroke="black"/>
+<rect x="50.5" y="120.5" width="339" height="309" stroke="black"/>
+<rect x="50.5" y="120.5" width="339" height="49" stroke="black"/>
+<rect x="50.5" y="169.5" width="339" height="30" stroke="black"/>
+<rect x="50.5" y="199.5" width="339" height="30" stroke="black"/>
+<rect x="50.5" y="229.5" width="339" height="30" stroke="black"/>
+<rect x="50.5" y="259.5" width="339" height="30" stroke="black"/>
+<rect x="50.5" y="289.5" width="339" height="30" stroke="black"/>
+<rect x="50.5" y="319.5" width="339" height="30" stroke="black"/>
+<rect x="50.5" y="349.5" width="339" height="30" stroke="black"/>
+<rect x="50.5" y="379.5" width="339" height="30" stroke="black"/>
+</svg>
