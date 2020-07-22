@@ -6,6 +6,71 @@
   --fourth: #fba2c2;
   --black: #160b09;
   --white: #fcfafd;
+  --grad1: linear-gradient(
+      122.01deg,
+      rgba(181, 195, 205, 0.2475) 0%,
+      rgba(179, 191, 185, 0) 100%
+    ),
+    radial-gradient(
+      49.34% 50% at 100% 0%,
+      rgba(255, 255, 255, 0.5) 0%,
+      rgba(98, 116, 178, 0) 100%
+    ),
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(246, 217, 163, 0.0495) 29.17%,
+      rgba(127, 76, 65, 0.2475) 100%
+    ),
+    radial-gradient(
+      68.46% 100% at 0% 100%,
+      rgba(70, 81, 121, 0.5) 0%,
+      rgba(132, 153, 219, 0.075) 100%
+    ),
+    #ffffff;
+  --grad2: linear-gradient(
+      237.99deg,
+      rgba(241, 223, 240, 0.33) 0%,
+      rgba(228, 109, 130, 0) 100%,
+      rgba(228, 109, 109, 0) 100%
+    ),
+    radial-gradient(
+      50% 126.31% at 100% 0%,
+      rgba(255, 255, 255, 0.5) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      90deg,
+      rgba(216, 216, 216, 0) 0%,
+      rgba(131, 153, 149, 0.5) 100%
+    ),
+    radial-gradient(
+      100% 175.25% at 0% 0%,
+      rgba(40, 0, 154, 0.21) 0%,
+      rgba(211, 193, 193, 0.075) 100%
+    ),
+    #f5f5f5;
+  --grad3: linear-gradient(
+      122.01deg,
+      rgba(241, 232, 223, 0.33) 0%,
+      rgba(228, 216, 109, 0) 100%
+    ),
+    radial-gradient(
+      50% 126.31% at 100% 0%,
+      rgba(255, 255, 255, 0.5) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      90deg,
+      rgba(216, 216, 216, 0) 0%,
+      rgba(131, 153, 153, 0.5) 100%
+    ),
+    radial-gradient(
+      68.46% 100% at 50% 0%,
+      rgba(154, 0, 0, 0.2475) 0%,
+      rgba(211, 196, 193, 0) 100%
+    ),
+    #f5f5f5;
 }
 
 @media all and (max-width: 768px) {
@@ -56,20 +121,65 @@
   h5 {
     font-size: 1em !important;
   }
+  p {
+    font-size: 14px !important;
+  }
+
+  ul.work {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  div.w-header {
+    margin: 16px;
+    grid-column: 1/13 !important;
+    font-size: 1.75em !important;
+  }
+  div.line-3 {
+    width: 100%;
+  }
+  div.orb {
+    grid-column: 1/13;
+    left: auto;
+    right: auto;
+    margin: auto;
+    height: 80vw;
+    width: 80vw;
+    top: -120px;
+    bottom: 48px;
+  }
+  .w {
+    font-size: 12px !important;
+  }
+  li.w-li {
+    margin: 16px;
+  }
 }
 
-@media all and (min-width: 1320px) and (max-width: 769px) {
+@media all and (max-width: 1320px) and (min-width: 769px) {
   .w-t,
   .w-0 {
-    font-size: 0.9vw;
-    line-height: 140%;
-    opacity: 0.7;
+    font-size: 16pt !important;
+    line-height: 160% !important;
+    opacity: 1;
   }
   .w-header {
     margin-right: 46px;
+    grid-column: 1/11 !important;
+    font-size: 3em !important;
+  }
+  .w {
+    font-size: 1.7vw !important;
+  }
+  div.line-3 {
+    width: 92.5vw;
   }
   .work {
     grid-gap: 32px;
+  }
+  ul.work {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  p {
+    font-size: 0.8em;
   }
 }
 
@@ -145,6 +255,7 @@
 
 .box {
   display: flex;
+  flex-wrap: nowrap;
   grid-column-start: 1;
   grid-column-end: 8;
   position: sticky;
@@ -224,6 +335,7 @@
 }
 .brownHalf {
   z-index: 62;
+  margin-right: 1px;
   background: #693738;
   transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
     rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
@@ -231,6 +343,7 @@
 }
 .yellowHalf {
   z-index: 63;
+  margin-right: 1px;
   background: var(--secondary);
   transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
     rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
@@ -320,6 +433,7 @@ body * {
 
 /* Work header */
 .w-header {
+  margin-right: 24px;
   grid-column: 1/5;
   font-size: 4.25vw;
 }
@@ -339,8 +453,8 @@ body * {
 }
 .line-3 {
   grid-column: 1/13;
-  width: 24.5vw;
-  height: 2.5px;
+  width: 100%;
+  height: 1.5px;
 }
 .w-h-spacer {
   grid-column: 5/13;
@@ -351,7 +465,6 @@ ul.work {
   grid-column: 1/13;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-
   justify-content: space-between;
   margin-top: 48px;
   grid-gap: 48px;
@@ -359,4 +472,40 @@ ul.work {
 
 .w-li {
   top: 24px;
+}
+
+/* gradients */
+.blue {
+  background: var(--grad1);
+  opacity: 1;
+  z-index: 99999;
+}
+
+.red {
+  background: var(--grad2);
+  opacity: 0;
+  transform: rotate(180deg);
+  z-index: 99998;
+}
+
+.green {
+  background: var(--grad3);
+  mix-blend-mode: color;
+  opacity: 0;
+  transform: rotate(-180deg);
+  z-index: 99997;
+}
+
+.blue,
+.red,
+.green {
+  flex-basis: 100%;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: overlay;
 }

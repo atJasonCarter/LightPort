@@ -109,9 +109,7 @@ const box = document.getElementById("box");
 // orb.addEventListener("mouseEnter", orbEnter, false);
 // orb.addEventListener("mouseLeave", orbLeave, false);
 
-
-
-//TD 
+//TD
 var TDHover = document.getElementById("TD");
 TDHover.onmouseover = function() {
   var box = document.getElementById("box");
@@ -119,9 +117,8 @@ TDHover.onmouseover = function() {
 };
 TDHover.onmouseout = function() {
   var box = document.getElementById("box");
-  box.style.backgroundColor = "#325769";
+  box.style.backgroundColor = "#f75534";
 };
-
 
 // TD Dashboard
 var TDdbHover = document.getElementById("TDdb");
@@ -131,7 +128,7 @@ TDdbHover.onmouseover = function() {
 };
 TDdbHover.onmouseout = function() {
   var box = document.getElementById("box");
-  box.style.backgroundColor = "#325769";
+  box.style.backgroundColor = "#f75534";
 };
 // Build Audience
 var TDbaHover = document.getElementById("TDba");
@@ -141,7 +138,7 @@ TDbaHover.onmouseover = function() {
 };
 TDbaHover.onmouseout = function() {
   var box = document.getElementById("box");
-  box.style.backgroundColor = "#325769";
+  box.style.backgroundColor = "#f75534";
 };
 // Check analytics
 var TDcaHover = document.getElementById("TDca");
@@ -151,18 +148,39 @@ TDcaHover.onmouseover = function() {
 };
 TDcaHover.onmouseout = function() {
   var box = document.getElementById("box");
-  box.style.backgroundColor = "#325769";
+  box.style.backgroundColor = "#f75534";
 };
 
-
-
 // Get element by ID
-
 
 const TD = document.getElementById("TD");
 const TDdb = document.getElementById("TDdb");
 const TDba = document.getElementById("TDba");
 const TDca = document.getElementById("TDca");
 
+// gradient
+var t1 = anime.timeline({
+  easing: "easeOutExpo",
+  duration: 108000,
+  loop: true
+});
 
+t1.add({
+  targets: ".blue, .el",
+  easing: "easeOutExpo",
+  duration: 36000,
+  keyframes: [{ opacity: 0 }, { opacity: 1 }, { opacity: 0 }]
+})
+  .add({
+    targets: ".red, .el",
+    easing: "easeOutExpo",
+    duration: 36000,
 
+    keyframes: [{ opacity: 0 }, { opacity: 1 }, { opacity: 0 }]
+  })
+  .add({
+    targets: ".green, .el",
+    easing: "easeOutExpo",
+    duration: 36000,
+    keyframes: [{ opacity: 0 }, { opacity: 1 }, { opacity: 0 }]
+  });
