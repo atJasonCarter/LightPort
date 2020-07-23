@@ -1,5 +1,10 @@
-.tddimg, .tddimghover-Purple, .tddimghover-line, .tdaimg, .tdaAnimate{
+.tdBarAnim, .tddimg, .tddimghover-Purple, .tddimghover-line, .tdaimg, .tdaAnimate{
     transition: all 150ms ease-in-out;
+  }
+
+  .tdBarAnim{
+    transition: all 150ms, opacity 250ms ease-in-out;
+
   }
   .tddimg:hover .tddimghover-Purple{
   fill: #E2E6F8;
@@ -94,3 +99,63 @@
     width:318px;
     height:91px;
   }
+
+  .TDbarchartsIMG{
+    opacity: 0;
+  }
+  .tdBarimg:hover .TDbarchartsIMG{
+    opacity: 1!important;
+  }
+
+  .tdBarimg:hover .tdbarchart1{
+    fill:white;
+    rx:2px;
+    height:190px;
+    width:205px;
+    stroke:white;
+    x:10.5;
+    y:40.5;
+  }
+  
+  .tdBarimg:hover .tdbarchart2{
+    fill:#E2E6F8;
+    rx:2px;
+    height:190px;
+    width:205px;
+    stroke: #e2e6f8;
+    x:225.5;
+    y:40.5;
+  }
+
+  .tdBarimg:hover .tdbarchart3{
+    fill:#E2E6F8;
+    stroke: #E2E6F8;
+    rx:2px;
+    height:190px;
+    width:133.33px;
+    y:240.5;
+    x:10.5
+  }
+  .tdBarimg:hover .tdbarchart4{
+    fill:#E2E6F8;
+    stroke: #E2E6F8;
+    rx:2px;
+    height:190px;
+    width:133.33px;
+    y:240.5;
+    x:153.5
+  }
+
+  .tdBarimg:hover .tdbarchart5{
+    fill:#E2E6F8;
+    stroke: #E2E6F8;
+    rx:2px;
+    height:190px;
+    width:133.33px;
+    y:240.5;
+    x:297.5
+  }
+.tdBarimg:hover .tdBarimgBG{
+  fill:#BEC7EC;
+}
+
