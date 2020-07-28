@@ -1,3 +1,21 @@
+:root {
+  --font-default: 18px;
+  --font-s: 16px;
+  --font-l: 20px;
+  --font-line-height: 28px;
+}
+
+@media (min-width: 1400px) {
+:root {
+  --font-default: 19px;
+  --font-s: 17px;
+  --font-l: 24px;
+  --font-line-height: 30px;
+}
+}
+
+
+
 h1,
 h2,
 h3,
@@ -41,7 +59,8 @@ h2 {
 }
 
 h5 {
-  font-size: 1vw;
+  /* font-size: 1vw; */
+  font-size: var(--font-l);
   color: var(--primary);
   font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -55,7 +74,8 @@ h5 {
 }
 
 h6 {
-  font-size: 1vw;
+  /* font-size: 1vw; */
+  font-size: var(--font-default);
   color: var(--primary);
   font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -69,7 +89,8 @@ h6 {
 }
 
 p {
-  font-size: 0.79vw;
+  /* font-size: 0.79vw; */
+  font-size: var(--font-default);
   color: var(--black);
   font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -87,13 +108,18 @@ a {
   text-decoration: none;
   color: var(--primary);
   padding-bottom: 4.2vw;
-  font-size: 1vw;
+  /* font-size: 1vw; */
+  font-size: var(--font-default);
   font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 500;
   text-align: right;
   text-transform: uppercase;
   transition: all 150ms ease;
+}
+a.readMore {
+  text-transform: none;
+  font-size: clip();
 }
 .linav:hover {
   transform: translate(-33%, 0%) scale(1.33);
@@ -125,7 +151,8 @@ a {
 } */
 
 .w {
-  font-size: 0.7vw;
+  /* font-size: 0.7vw; */
+  font-size: var(--font-s);
   color: var(--black);
   font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -180,4 +207,69 @@ a {
   src: url("../fonts/GrifoLBlack.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
+}
+
+
+
+
+
+/* Cyberpunk */
+.cyb:hover {
+  color: #000;
+  text-shadow: none;
+  animation: CyberPunk 3s 1;
+}
+@keyframes CyberPunk {
+  0% {
+    color: #da75e3;
+    text-shadow: 0px 4px 60px #da75e3;
+  }
+  12% {
+    color: #da75e3;
+    text-shadow: 0px 4px 80px #da75e3;
+  }
+  13% {
+    color: #da75e3;
+    text-shadow: 0px 4px 40px #da75e3;
+  }
+  16% {
+    color: #000;
+    text-shadow: none;
+  }
+  17% {
+    color: #da75e3;
+    text-shadow: 0px 4px 80px #da75e3;
+  }
+  21% {
+    color: #da75e3;
+    text-shadow: 0px 4px 60px #da75e3;
+  }
+  22% {
+    color: #000;
+    text-shadow: none;
+  }
+  32% {
+    color: #75dce3;
+    text-shadow: 0px 4px 60px #75dce3;
+  }
+  35% {
+    color: #75dce3b0;
+    text-shadow: 0px 4px 10px #75dce3;
+  }
+  42% {
+    color: #75dce3;
+    text-shadow: 0px 4px 60px #75dce3;
+  }
+  62% {
+    color: #75dce3;
+    text-shadow: 0px 4px 60px #75dce3;
+  }
+  63% {
+    color: #fffd8e;
+    text-shadow: 0px 4px 60px #fffd8e;
+  }
+  100% {
+    color: #75dce3;
+    text-shadow: 0px 4px 60px #75dce3;
+  }
 }
