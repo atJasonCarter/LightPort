@@ -1,163 +1,168 @@
-.tdBarAnim, .tddimg, .tddimghover-Purple, .tddimghover-line, .tdaimg, .tdaAnimate{
-    transition: all 150ms ease-in-out;
-  }
+.tdBarAnim,
+.tddimg,
+.tddimghover-Purple,
+.tddimghover-line,
+.tdaimg,
+.tdaAnimate {
+  transition: all 150ms ease-in-out;
+}
 
-  .tdBarAnim{
-    transition: all 150ms, opacity 250ms ease-in-out;
+.tdBarAnim {
+  transition: all 150ms, opacity 250ms ease-in-out;
+}
+.tddimg:hover .tddimghover-Purple {
+  fill: #e2e6f8;
 
-  }
-  .tddimg:hover .tddimghover-Purple{
-  fill: #E2E6F8;
-  
   rx: 2px;
-  stroke: #E2E6F8;
-  }
-  .tddimg:hover .tddimghover-PurpleBG{
-    fill: #BEC7EC;
-  
-    rx: 0px;
-    stroke: #000;
-    }
-  .tddimg:hover .tddimghover-line{
-    opacity: 0;
-  }
-  .tddimg:hover .tddimghover-PurpleSide{
-    y: 120.5
-  }
-  .tddimg:hover .tddimghover-darkPurple{
-    fill: #43506A;
-  }
+  stroke: #e2e6f8;
+}
+.tddimg:hover .tddimghover-PurpleBG {
+  fill: #bec7ec;
 
-  /* TD Audiences */
+  rx: 0px;
+  stroke: #000;
+}
+.tddimg:hover .tddimghover-line {
+  opacity: 0;
+}
+.tddimg:hover .tddimghover-PurpleSide {
+  y: 120.5;
+}
+.tddimg:hover .tddimghover-darkPurple {
+  fill: #43506a;
+}
 
-  .tdaimg:hover .tdAudiences-FormBG{
+/* TD Audiences */
+
+.tdaimg:hover .tdAudiences-FormBG {
   fill: #fff;
   rx: 2px;
   x: 10.5;
   stroke: #fff;
-  }
-  .tdaimg:hover .tdAudiences-header{
-    fill: #E2E6F8;
-    rx: 2px;
-    stroke: #E2E6F8;
-    }
-  .tdaimg:hover .tdAudiences-SMall{
-    opacity: 0;
-  }
-  .tdaimg:hover .tdAudiences-ASM{
-    y: 120.5;
-    x:360.5;
-    fill: #E2E6F8;
-    stroke:#E2E6F8;
-    width: 70px;
-    height: 79px;
-    rx: 2px;
-
-  }
-  .tdaimg:hover .TDA-ASM2{
-    fill: #fff;
-    stroke: #fff;
-    y: 209.5;
-    x:360.5;
-    rx: 2px;
-    opacity: 1!important;
-    height: 31px;
-    width: 70px;
-  }
-  .tdaimg:hover .tdAudiences-BG{
-    fill: #BEC7EC;
- 
-  }
-
-  .tdaimg:hover .TDA1{
-    fill: #43506A;
-    stroke: #43506A;
-    opacity: 1!important;
-    rx: 2px;
-    x:21.5;
-    y:130.5;
-    width:318px;
-    height:91px;
-  }
-  .tdaimg:hover .TDA2{
-    fill: #BEC7EC;
-    stroke: #BEC7EC;
-    opacity: 1!important;
-    rx: 2px;
-    x:21.5;
-    y:231.5;
-    width:318px;
-    height:91px;
-  }
-  .tdaimg:hover .TDA3{
-    fill: #E2E6F8;
-    stroke: #E2E6F8;;
-    opacity: 1!important;
-    rx: 2px;
-    x:21.5;
-    y:332.5;
-    width:318px;
-    height:91px;
-  }
-
-  .TDbarchartsIMG{
-    opacity: 0;
-  }
-  .tdBarimg:hover .TDbarchartsIMG{
-    opacity: 1!important;
-  }
-
-  .tdBarimg:hover .tdbarchart1{
-    fill:white;
-    rx:2px;
-    height:190px;
-    width:205px;
-    stroke:white;
-    x:10.5;
-    y:40.5;
-  }
-  
-  .tdBarimg:hover .tdbarchart2{
-    fill:#E2E6F8;
-    rx:2px;
-    height:190px;
-    width:205px;
-    stroke: #e2e6f8;
-    x:225.5;
-    y:40.5;
-  }
-
-  .tdBarimg:hover .tdbarchart3{
-    fill:#E2E6F8;
-    stroke: #E2E6F8;
-    rx:2px;
-    height:190px;
-    width:133.33px;
-    y:240.5;
-    x:10.5
-  }
-  .tdBarimg:hover .tdbarchart4{
-    fill:#E2E6F8;
-    stroke: #E2E6F8;
-    rx:2px;
-    height:190px;
-    width:133.33px;
-    y:240.5;
-    x:153.5
-  }
-
-  .tdBarimg:hover .tdbarchart5{
-    fill:#E2E6F8;
-    stroke: #E2E6F8;
-    rx:2px;
-    height:190px;
-    width:133.33px;
-    y:240.5;
-    x:297.5
-  }
-.tdBarimg:hover .tdBarimgBG{
-  fill:#BEC7EC;
+}
+.tdaimg:hover .tdAudiences-header {
+  fill: #e2e6f8;
+  rx: 2px;
+  stroke: #e2e6f8;
+}
+.tdaimg:hover .tdAudiences-SMall {
+  opacity: 0;
+}
+.tdaimg:hover .tdAudiences-ASM {
+  y: 120.5;
+  x: 360.5;
+  fill: #e2e6f8;
+  stroke: #e2e6f8;
+  width: 70px;
+  height: 79px;
+  rx: 2px;
+}
+.tdaimg:hover .TDA-ASM2 {
+  fill: #fff;
+  stroke: #fff;
+  y: 209.5;
+  x: 360.5;
+  rx: 2px;
+  opacity: 1 !important;
+  height: 31px;
+  width: 70px;
+}
+.tdaimg:hover .tdAudiences-BG {
+  fill: #bec7ec;
 }
 
-.workheader{
-  margin-bottom: -24px;
+.tdaimg:hover .TDA1 {
+  fill: #43506a;
+  stroke: #43506a;
+  opacity: 1 !important;
+  rx: 2px;
+  x: 21.5;
+  y: 130.5;
+  width: 318px;
+  height: 91px;
+}
+.tdaimg:hover .TDA2 {
+  fill: #bec7ec;
+  stroke: #bec7ec;
+  opacity: 1 !important;
+  rx: 2px;
+  x: 21.5;
+  y: 231.5;
+  width: 318px;
+  height: 91px;
+}
+.tdaimg:hover .TDA3 {
+  fill: #e2e6f8;
+  stroke: #e2e6f8;
+  opacity: 1 !important;
+  rx: 2px;
+  x: 21.5;
+  y: 332.5;
+  width: 318px;
+  height: 91px;
+}
+
+.TDbarchartsIMG {
+  opacity: 0;
+}
+.tdBarimg:hover .TDbarchartsIMG {
+  opacity: 1 !important;
+}
+
+.tdBarimg:hover .tdbarchart1 {
+  fill: white;
+  rx: 2px;
+  height: 190px;
+  width: 205px;
+  stroke: white;
+  x: 10.5;
+  y: 40.5;
+}
+
+.tdBarimg:hover .tdbarchart2 {
+  fill: #e2e6f8;
+  rx: 2px;
+  height: 190px;
+  width: 205px;
+  stroke: #e2e6f8;
+  x: 225.5;
+  y: 40.5;
+}
+
+.tdBarimg:hover .tdbarchart3 {
+  fill: #e2e6f8;
+  stroke: #e2e6f8;
+  rx: 2px;
+  height: 190px;
+  width: 133.33px;
+  y: 240.5;
+  x: 10.5;
+}
+.tdBarimg:hover .tdbarchart4 {
+  fill: #e2e6f8;
+  stroke: #e2e6f8;
+  rx: 2px;
+  height: 190px;
+  width: 133.33px;
+  y: 240.5;
+  x: 153.5;
+}
+
+.tdBarimg:hover .tdbarchart5 {
+  fill: #e2e6f8;
+  stroke: #e2e6f8;
+  rx: 2px;
+  height: 190px;
+  width: 133.33px;
+  y: 240.5;
+  x: 297.5;
+}
+.tdBarimg:hover .tdBarimgBG {
+  fill: #bec7ec;
+}
+
+.caracara {
+  position: absolute;
+  right: -100%;
+  top: -100%;
+}
