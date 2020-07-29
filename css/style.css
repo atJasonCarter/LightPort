@@ -148,7 +148,7 @@
     bottom: 48px;
   }
   .w {
-    font-size: 12px !important;
+    font-size: var(--font-s);
   }
   li.w-li {
     margin: 16px;
@@ -158,8 +158,8 @@
 @media all and (max-width: 1320px) and (min-width: 769px) {
   .w-t,
   .w-0 {
-    font-size: 16pt !important;
-    line-height: 160% !important;
+    font-size: var(--font-default) !important;
+    line-height: 142% !important;
     opacity: 1;
 
 }
@@ -170,7 +170,7 @@
     font-size: 3em !important;
   }
   .w {
-    font-size: 1.7vw !important;
+    font-size: var(--font-s)!important;
   }
   div.line-3 {
     width: 92.5vw;
@@ -278,7 +278,12 @@
   position: relative;
   grid-column: 1/13;
 }
-
+.spacer-s {
+  padding-top: 48px;
+  display: inline;
+  position: relative;
+  grid-column: 1/13;
+}
 /* -- */
 /* Yellow Orb */
 /* -- */
@@ -533,4 +538,8 @@ ul.work {
 /* img hovers */
 .imghover:hover .casestudy{
 opacity:1;
+}
+
+.WorkHeader{
+  margin-bottom: -24px;
 }
