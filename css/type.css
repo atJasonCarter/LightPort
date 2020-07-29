@@ -6,15 +6,13 @@
 }
 
 @media (min-width: 1400px) {
-:root {
-  --font-default: 19px;
-  --font-s: 17px;
-  --font-l: 24px;
-  --font-line-height: 30px;
+  :root {
+    --font-default: 19px;
+    --font-s: 17px;
+    --font-l: 24px;
+    --font-line-height: 30px;
+  }
 }
-}
-
-
 
 h1,
 h2,
@@ -68,7 +66,7 @@ h5 {
   align-self: flex-end;
   padding-bottom: 5px;
   text-overflow: ellipsis;
-  
+
   opacity: 1;
   text-transform: uppercase;
 }
@@ -119,7 +117,10 @@ a {
 }
 a.readMore {
   text-transform: none;
-  font-size: clip();
+  font-size: var(--font-s);
+  padding: 4px;
+  outline: var(--black) solid 1px;
+  margin-left: 1px;
 }
 .linav:hover {
   transform: translate(-33%, 0%) scale(1.33);
@@ -208,10 +209,6 @@ a.readMore {
   font-weight: 900;
   font-style: normal;
 }
-
-
-
-
 
 /* Cyberpunk */
 .cyb:hover {
