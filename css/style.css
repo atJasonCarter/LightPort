@@ -255,16 +255,20 @@
   height: auto;
   background: var(--bg);
 }
+
+
+
+
 .prmary2 {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(282px, 420px));
   position: relative;
-  grid-column-gap: 12px;
+  grid-column-gap: .8vw;
   max-width: 1440px;
   width: 100vw;
   height: auto;
   background: var(--bg);
-  padding: 24px;
+  padding: 16px;
   outline: 1px solid var(--black);
 }
 .sideGrid{
@@ -305,11 +309,48 @@ position: relative;
   position: relative;
   grid-column: 1/13;
 }
+.spacerCS{
+  padding-top: 188px;
+  display: inline;
+  position: relative;
+  grid-column: 1/4;
+}
+
 .spacer-s {
   padding-top: 48px;
   display: inline;
   position: relative;
   grid-column: 1/13;
+}
+.spacerCS-s{
+  padding-top: 48px;
+  display: inline;
+  position: relative;
+  grid-column: 1/4;
+}
+.spacer-xs {
+  padding-top: 24px;
+  display: inline;
+  position: relative;
+  grid-column: 1/13;
+}
+.spacerCS-xs{
+  padding-top: 24px;
+  display: inline;
+  position: relative;
+  grid-column: 1/4;
+}
+.spacer-xxs {
+  padding-top: 12px;
+  display: inline;
+  position: relative;
+  grid-column: 1/13;
+}
+.spacerCS-xxs{
+  padding-top: 12px;
+  display: inline;
+  position: relative;
+  grid-column: 1/4;
 }
 /* -- */
 /* Yellow Orb */
@@ -561,6 +602,16 @@ ul.work {
 .casestudy:hover{
   background-color: var(--fourth);
 }
+.csRoles{
+  position: relative;
+  padding: 12px;
+  /* grid-gap: 64px;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: initial;
+  justify-content: flex-start;
+  align-content: flex-start; */
+}
 
 /* img hovers */
 .imghover:hover .casestudy{
@@ -569,4 +620,25 @@ opacity:1;
 
 .WorkHeader{
   margin-bottom: -24px;
+}
+
+
+/* images */
+.sideBySideimgContainer{
+  margin-left: -36px;
+  margin-right: -36px;
+  width: 100%;
+  height:auto;
+
+  grid-column: 1/4;
+  padding:0;
+  z-index: 99;
+}
+.sideBySideimgContainer{
+  display: grid;
+  grid-template-columns: 2;
+  width:100%;
+  height: auto;
+
+
 }
