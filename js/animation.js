@@ -109,6 +109,18 @@ var div = document.getElementById("orb");
 div.onmouseover = function() {
   var box = document.getElementById("box");
   box.style.backgroundColor = "#f5ad09";
+  
+    anime({
+      targets: '.caracara',
+      translateX: [ '0%','-2400%'],
+      translateY: [ '0%','2400%'],
+      loop:true,
+      duration: 3500,
+      endDelay:1000, 
+      easing:'easeInSine'
+
+
+    })
 };
 div.onmouseout = function() {
   var box = document.getElementById("box");
@@ -117,6 +129,10 @@ div.onmouseout = function() {
 
 const orb = document.getElementById("orb");
 const box = document.getElementById("box");
+
+
+
+
 
 // function animateOrb(backgroundColor, duration) {
 //   anime.remove(box);

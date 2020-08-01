@@ -2,6 +2,7 @@
   --font-default: 18px;
   --font-s: 16px;
   --font-l: 20px;
+  --font-xl: 24px;
   --font-line-height: 28px;
 }
 
@@ -10,6 +11,7 @@
     --font-default: 19px;
     --font-s: 17px;
     --font-l: 24px;
+    --font-xl: 32px;
     --font-line-height: 30px;
   }
 }
@@ -55,6 +57,13 @@ h2 {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   grid-column: 2/13;
 }
+h2.h2CaseStudy{
+  font-size: var(--font-xl);
+  line-height: 100%;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  grid-column: 1/13;
+}
 
 h5 {
   /* font-size: 1vw; */
@@ -69,6 +78,10 @@ h5 {
 
   opacity: 1;
   text-transform: uppercase;
+}
+h5.h5CaseStudy{
+  align-self: auto;
+  grid-column: 1/13;
 }
 
 h6 {
@@ -133,9 +146,9 @@ a > p.ww {
   margin-top: -32px !important;
 }
 
-.linav:hover {
+/* .linav:hover {
   transform: translate(-33%, 0%) scale(1.33);
-}
+} */
 .name {
   grid-column-end: 8;
   position: relative;
@@ -154,7 +167,13 @@ a > p.ww {
   left: 4.2vw;
   position: relative;
 }
+.CSTitle {
 
+  grid-column: 1/13;
+  position: relative;
+  font-size: 14vw;
+  line-height: 154%;
+}
 /* .uxd:hover {
   font-family: "Flow";
   font-weight: 500;

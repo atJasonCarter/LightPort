@@ -255,6 +255,33 @@
   height: auto;
   background: var(--bg);
 }
+.prmary2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  position: relative;
+  grid-column-gap: 12px;
+  max-width: 1440px;
+  width: 100vw;
+  height: auto;
+  background: var(--bg);
+  padding: 24px;
+  outline: 1px solid var(--black);
+}
+.sideGrid{
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height:auto;
+  position: absolute;
+}
+.sideRight, .sideLeft{
+  width:100%;
+position: relative;
+}
+.CSUL{
+ 
+}
+
 
 .box {
   overflow: hidden;
