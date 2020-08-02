@@ -627,18 +627,20 @@ opacity:1;
 .sideBySideimgContainer{
   margin-left: -36px;
   margin-right: -36px;
-  width: 100%;
+  width: calc(100% + 72px);
   height:auto;
 
   grid-column: 1/4;
   padding:0;
   z-index: 99;
+  display: flex
 }
-.sideBySideimgContainer{
-  display: grid;
-  grid-template-columns: 2;
-  width:100%;
-  height: auto;
 
-
+.sideBySideimg{
+  max-width: 50%;
+}
+img.imgCaseStudy-SideBySide{
+  object-fit: cover;
+  width: calc(100%);
+  border: 1px solid var(--black);
 }
