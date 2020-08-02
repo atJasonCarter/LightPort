@@ -114,7 +114,7 @@ div.onmouseover = function() {
       targets: '.caracara',
       translateX: [ '0%','-2400%'],
       translateY: [ '0%','2400%'],
-      loop:true,
+      loop: 2,
       duration: 3500,
       endDelay:1000, 
       easing:'easeInSine'

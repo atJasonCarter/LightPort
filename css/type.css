@@ -156,8 +156,9 @@ text-transform: none;
 
 p.pCaseStudy{
   grid-column: 1/4;
-  margin-bottom: 12px;
+  margin-bottom: 24px;
   font-weight: 400;
+  line-height: var(--font-line-height);
 }
 /* .linav:hover {
   transform: translate(-33%, 0%) scale(1.33);
