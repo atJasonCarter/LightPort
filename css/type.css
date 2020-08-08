@@ -114,7 +114,7 @@ p {
   /* margin-top: -24px; */
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
 }
 
 a {
@@ -136,6 +136,7 @@ a.readMore {
   padding: 4px;
   outline: var(--black) solid 1px;
   margin-left: 1px;
+  justify-self: start;
 }
 
 a > p {
@@ -185,8 +186,16 @@ p.pCaseStudy{
 
   grid-column: 1/4;
   position: relative;
-  font-size: 14vw;
+  font-size: 8vw;
   line-height: 154%;
+  letter-spacing: -7.5px;
+}
+.CSsubTitle {
+  grid-column: 1/4;
+  position: relative;
+  font-size: var(--font-default);
+
+  margin-bottom: -43px;
 }
 /* .uxd:hover {
   font-family: "Flow";
