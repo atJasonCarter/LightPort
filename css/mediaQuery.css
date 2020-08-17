@@ -67,8 +67,11 @@
     
     div.w-header {
       margin: 16px;
-      grid-column: 1/13 /*!important*/;
+      grid-column: 1/13 !important;
       font-size: 1.75em /*!important*/;
+    }
+    div.w-h-spacer{
+      display: none;
     }
     div.line-3 {
       width: 100%;
