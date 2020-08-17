@@ -23,11 +23,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Jason Carter ✨ Product Design</title>
     <link rel="stylesheet" href="./css/normalize.css" />
-    <link rel="stylesheet" href="./css/imHovers.css">
+    <link rel="stylesheet" href="./css/imHovers.css"/>
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/type.css" />
+    <link rel="stylesheet" href="./css/mediaQuery.css"/>
   </head>
   <body>
+    <main>
       <div class="sideGrid">
           <div class="sideLeft">
             <div class="nav">
@@ -41,6 +43,14 @@
 
             <h5 class="CSsubTitle">TrueData's</h5>
             <h1 class="CSTitle">Audience Builder</h1>
+<div class="CSHeroSpacer"></div>
+<a class="tilter">
+<figure class="tilter__figure">
+<img src="./imgs/AudienceBuilderHero.png" alt="CS Hero" class="tilter__image" id="CSHero">
+</figure>
+</a>
+
+
         <div class="csRoles">
         <h2 class="h2CaseStudy">Details</h2>
         <div class="spacerCS-xs"></div>
@@ -110,7 +120,7 @@
         </div>
         <div class="spacerCS"></div>
         <a href="/TrueData.html" class="readMore">Read more about TrueData →</a>
-        <div class="spacerCS-xs"></div>    
+        <div class="spacerCS-s"></div>    
         <h2 class="h2CaseStudy">Finding the Man of Your Dreams</h2>
         <div class="spacerCS-xs"></div>
         <p class="pCaseStudy"> TrueData's core product is matching our customers with the perfect audiences for them.
@@ -120,23 +130,227 @@
         </p>
         <p class="pCaseStudy">
 
-            Over the next year and a half we would take this tool from a bare form to a unique tool that solved pain points in ways none of our competitors were.
-            
+            Over the next year and a half we would take this tool from a bare forum to a unique tool that solved pain points in ways none of our competitors were.
+        </p>
+        <div class="spacerCS-xs"></div>
+        <p class="pCaseStudy">
             The initial tools available on our audience builder were:
+           </p>
+            <ul class="caseStudyList">
+              <li class="liCaseStudy fullLi">1. Audience name input</li>
+                <li class="liCaseStudy fullLi">2. List of apps your customers would ideally have installed on their mobile device</li>
+                <li class="liCaseStudy fullLi">3. List of apps your customers would ideally have <strong>not</strong> installed on their mobile device</li>
+                <li class="liCaseStudy fullLi">4. Age range of targeted audience (check boxes)</li>
+                <li class="liCaseStudy fullLi">5. Gender of Target Audience (only M/F options)</li>
+                <li class="liCaseStudy fullLi">6. Device Characteristics (Phone manufacturer, and Model)</li>
+            </ul>
+
+            <div class="spacerCS-xs"></div>
+
+            <p class="pCaseStudy">
+              And the initial tool looked <strong>something like this</strong>:
             </p>
+            
+            <div class="sideBySideimgContainer">
+              <div class="sideBySideimg right">
+              <div class="headerForImages">
+                <div class="crcl crcl"></div>    <div class="crcl"></div>    <div class="crcl"></div>
+              </div>
+             <img src="/imgs/Capture.PNG" alt="Old Image for Audience Builder" class="imgCaseStudy-SideBySide noContain">
+             <div class="headerForImages footer"> Inherited Artifact. Not the prettiest thing... but it enabled CX to build Audiences without knowing MongoDB. </div>
+           </div>
+            </div>
+
+          <div class="spacerCS"></div>
+
+
+          <h2 class="h2CaseStudy">Small Changes, Quickly</h2>
+
+          <div class="spacerCS-xs"></div>
+          <p class="pCaseStudy">
+            
+            The first iteration was an opportunity to build TrueData's first design system, implement new UI to our newly customer-facing product, and nail down the IA. We wanted to get the tooling in our customers hands as quickly as possible, and began testing with them immediately. Talking to 5 customers, I  performed qualitative research to learn more about what was needed in the product, what was desired, what our competitors did right, and where our competitors had failed.
+          </p>
+          <p class="pCaseStudy">
+            This is what we thought our customer's journey looked like:
+          </p>
+          <div class="spacerCS-s"></div>
+            <!-- Journey Map -->
+          <ul class="JourneyMapContainer JMC">
+            <li class="JourneyMap JMC">Company creates new product</li>
+            <div class="journeyArrows JMC">↓</div>
+            <li class="JourneyMap JMC">  Marketing team does competitive analysis</li>
+            <div class="journeyArrows JMC">↓</div>
+            <li class="JourneyMap JMC">  Marketing does research into ideal targeted customers</li>
+            <div class="journeyArrows JMC">↓</div>
+            <li class="JourneyMap JMC">  Marketing begins marketing plan</li>
+            <div class="journeyArrows JMC">↓</div>
+            <li class="JourneyMap JourneyMap-fixes JMC">  Marketing selects exact makeup of ideal customers </li>
+            <div class="journeyArrows JMC">↓</div>
+            <li class="JourneyMap JMC">  Marketing delivers advertising campaign</li>
+            <div class="journeyArrows JMC">↓</div>
+            <li class="JourneyMap JMC">  Succesful Ad campaign </li>
+          </ul>
+
+          <ul class="JourneyMapContainer JMChide">
+            <li class="JourneyMap JMC-SecondBox">Company creates new product</li>
+            <div class="journeyArrows JMC-SecondBox">↓</div>
+            <li class="JourneyMap JMC-SecondBox">  Marketing team does competitive analysis</li>
+            <div class="journeyArrows JMC-SecondBox">↓</div>
+            <li class="JourneyMap JMC-SecondBox">  Marketing does research into ideal targeted customers</li>
+            <div class="journeyArrows JMC-SecondBox">↓</div>
+            <li class="JourneyMap JMC-SecondBox">  Marketing begins marketing plan</li>
+            <div class="journeyArrows JMC-SecondBox">↓</div>
+            <li class="JourneyMap JourneyMap-fixes JMC-SecondBox">  ← Let's improve this &#x200b &#x200b &#x200b &#x200b &#x200b &#x200b &#x200b &#x200b &#x200b &#x200b &#x200b &#x200b &#x200b &#x200b &#x200b &#x200b &#x200b &#x200b &#x200b &#x200b &#x200b &#x200b &#x200b &#x200b &#x200b &#x200b &#x200b &#x200b &#x200b &#x200b &#x200b &#x200b &#x200b &#x200b &#x200b &#x200b &#x200b &#x200b &#x200b &#x200b &#x200b &#x200b &#x200b &#x200b &#x200b &#x200b &#x200b &#x200b &#x200b </li>
+            <li class="JourneyMap JMC-SecondBox">  Marketing delivers advertising campaign</li>
+            <div class="journeyArrows JMC-SecondBox">↓</div>
+            <div class="journeyArrows JMC-SecondBox">↓</div>
+            <li class="JourneyMap JourneyMap-fixes JMC-SecondBox">  ← To make this even better </li>
+          </ul>
+          <div class="spacerCS-m"></div>
+          <p class="pCaseStudy">
+            Our initial thought process was to improve Step 5 in the customers journey, by giving our competitors more precise selections than what our competitors were giving them. This would improve our target metric of outperforming our competitors, and lower our customers cost per click. Additionally we had no way of visualizing for the users the total size of the Audience was. Finally, our aesthetics needed updating, so I built our companies first design system to apply to all designs moving forward.
+          </p>
+
+          <p class="pCaseStudy">
+            I started by adding specificity to the Audience Builder. For each selection I included logistical operators such as "and"/"or". I knew not all marketers come from a tech background, and included tooltip hovers and contextual visuals.
+          </p>
+          [Pic]
+          <p class="pCaseStudy">
+           Next, we added an "Audience Scale Meter" to not only show the size of the selected audience, but to Give context to our Marketing customers about what the size of the selected audience means. For example, if the audience is too large, the benefits of targeting becomes nearly useless. If the audience becomes too small, your campaign wont have enough reach (If it gets TOO small, you're invading privacy, and I set up safeguards to prevent individual privacy being invaded).
+          </p>
+
+          <p class="pCaseStudy">
+          I presented these designs back to our engineers and our customers and wrote a research document to clarify my findings. The general feedback was:
+          </p>
+<div class="feedbackContainer">
+<p class="feedback"> <span class="feedbackHeader"> Feedback</span><br>The primary benefit of the logistical operators was simply revealing how the audience was being concatenated together.</p>
+<p class="feedback feedback-action"> <span class="feedbackHeader"> Action</span><br> For version one, remove ability to toggle between operators, our backend wasn't designed to support this functionality and would take up too many engineering resources early on. After we built the toggles, a Fullstory analysis proved this point by showing just how rarely people tried to toggle.</p>
+<p class="feedback"> <span class="feedbackHeader"> Feedback</span><br>What our customers really loved about our platform was their interactions with he customer service team. Our Customer Service team was building our customers audiences; helping discover new audiences, and test out multiple audiences at once.</p>
+<p class="feedback feedback-action"> <span class="feedbackHeader"> Action</span><br>Make our audience builder more flexible, reimagine the way our customers interact with our platform. Allow customers to build and submit multiple audiences at once. Add audience plans to groups called "test plans"</p>
+</div>
+<div class="spacerCS"></div>
+<div class="soloimgContainer scroller">
+  <div class="headerForImages">
+    <div class="crcl crcl"></div>    <div class="crcl"></div>    <div class="crcl"></div>
+  </div>
+  <div class="soloimgContainerScroll">
+<img src="./imgs/Audience Builder.png" alt="" srcset="" class="imgCaseStudy-Solo scroll">
+</div>
+</div>
+
+
+<div class="spacerCS-xs"></div>
+
+<div class="fullwidthLine"></div>
+<div class="spacerCS-m"></div>
+        <h2 class="h2CaseStudy">Metrics</h2>
+        <div class="spacerCS-s"></div>
+        <h5 class="h5CaseStudy">Design Metrics</h5>
+        <div class="MetricsContainer">
+        <div class="Metrics">
+          <h6 class="w wmetrics">Satisfaction</h6>
+
+        <p class="Goal">Goal  &#x200b &#x200b  &#x200b - 4.5/5</p>
+
+        <p class="Actual"> Actual - 3.9/5</p>
+        </div>
+        <div class="Metrics">
+        <h6 class="w wmetrics">Audience's Built / Month</h6>
+
+        <p class="Goal">Goal  &#x200b &#x200b  &#x200b - N/A → 5</p>
+
+        <p class="Actual"> Actual - N/A → 2</p>
+        </div>
+        <div class="Metrics">
+        <h6 class="w wmetrics">Rage Click Rate</h6>
+
+        <p class="Goal">Goal  &#x200b &#x200b  &#x200b - N/A → < 1.00%</p>
+
+        <p class="Actual"> Actual - N/A →  <.0004%</p>
+        </div></div>
+        <div class="spacerCS-m"></div>
+        <h5 class="h5CaseStudy">Business Metrics</h5>
+        <div class="MetricsContainer">
+        <div class="Metrics">
+          <h6 class="w wmetrics">Click Through Rate</h6>
+
+        <p class="Goal">Goal  &#x200b &#x200b  &#x200b - 0.90% → 1.00%</p>
+
+        <p class="Actual"> Actual - 0.90% → 1.24%</p>
+        </div>
+        <div class="Metrics">
+        <h6 class="w wmetrics">Cost Per Click</h6>
+
+        <p class="Goal">Goal     &#x200b &#x200b  &#x200b - $3.35 → $2.50 <br>(~25% savings)</p>
+
+        <p class="Actual"> Actual - $3.35 →  $1.47 CPC <br>(56.5% savings)</p>
+        </div>
+        <div class="Metrics">
+        <h6 class="w wmetrics">New Customers</h6>
+
+        <p class="Goal"> Goal  &#x200b &#x200b  &#x200b - 100% → 120%</p>
+
+        <p class="Actual"> Actual - 100% → 180%</p>
+        </div>
+</div>
+<div class="spacerCS-m"></div>
+<div class="fullwidthLine"></div>
+
+<div class="spacerCS-m"></div>   
+<h2 class="h2CaseStudy">Looking into the future</h2>
+<div class="spacerCS-xs"></div>
+<p class="pCaseStudy">
+  So with pre-launch feedback in mind,  we launched to a small set of customers to validate the feedback, see what was working, and to start freeing up our Customer Service team's calendars.
+  </p>
+<p class="pCaseStudy"> Our product was succeeding! We had a product that customers wanted, and was performing better than our competitors. But clearly it could be improved. We were marketing our tool as a platform to build audiences quickly and cheaply. So why were customers only building 2 per month? Thinking back to the feedback we got, We started a year long process about re-engineering our designs and our backend to start grouping audiences into "Test plans", and allow users to build multiple audiences at once. I also started working with our Data Scientist to develop a way to suggest audiences to customers using Machine Learning.
+</p>
+<p class="pCaseStudy EN">
+EN: The next few images are ugly low-fi wireframes, the product hasn't been in market long enough to allow me to show you the pretty pictures on here. To make up for that, I put a ✨beautiful ✨ gradient behind them. Wow. To see the updated UI...<br> <a class="caseStudyLink" href="mailto:jcarter91@gmail.com"> contact me.</a>
+</p>
+<p class="pCaseStudy">
+My first solution was to add a "Quick builder". Most of the audiences being built were focused on what apps the ideal customer used. I designed and tested a modal to go in our main toolbar that allowed our customers to see overlap of customers for any two companies, and select between the overlap or the select audience.
+</p>
+
+<div class="sideBySideimgContainer">
+<div class="sideBySideimg right">
+  <div class="headerForImages">
+    <div class="crcl crcl"></div>    <div class="crcl"></div>    <div class="crcl"></div>
+  </div>
+  <img src="./imgs/overlap.png" class="imgCaseStudy-SideBySide noContain">
+</div>
+
+</div>
+
+<div class="spacerCS-m"></div>
+<p class="pCaseStudy">
+
+Finally, I started the process of implementing our new audience selection tool. We kept the manual forum, for customers who wanted precise control; but the new suggested audience builder quickly became the favorite, and most used tool on the platform. Customers who used the new audience selection tool built 10x the number of audiences per month as customers who purely used the manual builder, and had a 50% lower CPC.
+</p>
+<div class="spacerCS-m"></div>
+<div class="soloimgContainer">
+  <div class="headerForImages">
+    <div class="crcl crcl"></div>    <div class="crcl"></div>    <div class="crcl"></div>
+  </div>
+<img src="./imgs/TrueDataBuildAudienceNew.gif" alt="" srcset="" class="imgCaseStudy-Solo">
+</div>
+
+<div class="fullwidthLine"></div>
+
+<div class="spacerCS-m"></div>   
+<h2 class="h2CaseStudy">Conclusion</h2>
+<div class="spacerCS-xs"></div>
+<p class="pCaseStudy">
+This project was a healthy reminder to not just learn what the product can do better, but whatit has the potential to be. Your customers are coming to you because your competitors aren't filling their needs properly, so be bold, authentic, and standout from the rest. 
+  </p>
 
 
 
 
-
-
-
+          </div>
         <div class="sideRight"></div>
 </div>
-<script src="./js/fitty.min.js" type="text/javascript"></script>
-<script src="./js/jquery.slim.js" type="text/javascript"></script>
-<script src="./js/anime.min.js" type="text/javascript"></script>
-<script src="./js/animation.js" type="text/javascript"></script>
+</main>
 
 <!-- partial:index.partial.html -->
 <div id="root"></div>
@@ -144,7 +358,47 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/react/16.8.4/umd/react.production.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.8.4/umd/react-dom.production.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/classnames/2.2.6/index.min.js"></script>
+<script>
+  !function(t,e){"function"==typeof define&&define.amd?define("ev-emitter/ev-emitter",e):"object"==typeof module&&module.exports?module.exports=e():t.EvEmitter=e()}("undefined"!=typeof window?window:this,function(){function t(){}var e=t.prototype;return e.on=function(t,e){if(t&&e){var i=this._events=this._events||{},n=i[t]=i[t]||[];return-1==n.indexOf(e)&&n.push(e),this}},e.once=function(t,e){if(t&&e){this.on(t,e);var i=this._onceEvents=this._onceEvents||{},n=i[t]=i[t]||{};return n[e]=!0,this}},e.off=function(t,e){var i=this._events&&this._events[t];if(i&&i.length){var n=i.indexOf(e);return-1!=n&&i.splice(n,1),this}},e.emitEvent=function(t,e){var i=this._events&&this._events[t];if(i&&i.length){var n=0,o=i[n];e=e||[];for(var r=this._onceEvents&&this._onceEvents[t];o;){var s=r&&r[o];s&&(this.off(t,o),delete r[o]),o.apply(this,e),n+=s?0:1,o=i[n]}return this}},t}),function(t,e){"use strict";"function"==typeof define&&define.amd?define(["ev-emitter/ev-emitter"],function(i){return e(t,i)}):"object"==typeof module&&module.exports?module.exports=e(t,require("ev-emitter")):t.imagesLoaded=e(t,t.EvEmitter)}(window,function(t,e){function i(t,e){for(var i in e)t[i]=e[i];return t}function n(t){var e=[];if(Array.isArray(t))e=t;else if("number"==typeof t.length)for(var i=0;i<t.length;i++)e.push(t[i]);else e.push(t);return e}function o(t,e,r){return this instanceof o?("string"==typeof t&&(t=document.querySelectorAll(t)),this.elements=n(t),this.options=i({},this.options),"function"==typeof e?r=e:i(this.options,e),r&&this.on("always",r),this.getImages(),h&&(this.jqDeferred=new h.Deferred),void setTimeout(function(){this.check()}.bind(this))):new o(t,e,r)}function r(t){this.img=t}function s(t,e){this.url=t,this.element=e,this.img=new Image}var h=t.jQuery,a=t.console;o.prototype=Object.create(e.prototype),o.prototype.options={},o.prototype.getImages=function(){this.images=[],this.elements.forEach(this.addElementImages,this)},o.prototype.addElementImages=function(t){"IMG"==t.nodeName&&this.addImage(t),this.options.background===!0&&this.addElementBackgroundImages(t);var e=t.nodeType;if(e&&d[e]){for(var i=t.querySelectorAll("img"),n=0;n<i.length;n++){var o=i[n];this.addImage(o)}if("string"==typeof this.options.background){var r=t.querySelectorAll(this.options.background);for(n=0;n<r.length;n++){var s=r[n];this.addElementBackgroundImages(s)}}}};var d={1:!0,9:!0,11:!0};return o.prototype.addElementBackgroundImages=function(t){var e=getComputedStyle(t);if(e)for(var i=/url\((['"])?(.*?)\1\)/gi,n=i.exec(e.backgroundImage);null!==n;){var o=n&&n[2];o&&this.addBackground(o,t),n=i.exec(e.backgroundImage)}},o.prototype.addImage=function(t){var e=new r(t);this.images.push(e)},o.prototype.addBackground=function(t,e){var i=new s(t,e);this.images.push(i)},o.prototype.check=function(){function t(t,i,n){setTimeout(function(){e.progress(t,i,n)})}var e=this;return this.progressedCount=0,this.hasAnyBroken=!1,this.images.length?void this.images.forEach(function(e){e.once("progress",t),e.check()}):void this.complete()},o.prototype.progress=function(t,e,i){this.progressedCount++,this.hasAnyBroken=this.hasAnyBroken||!t.isLoaded,this.emitEvent("progress",[this,t,e]),this.jqDeferred&&this.jqDeferred.notify&&this.jqDeferred.notify(this,t),this.progressedCount==this.images.length&&this.complete(),this.options.debug&&a&&a.log("progress: "+i,t,e)},o.prototype.complete=function(){var t=this.hasAnyBroken?"fail":"done";if(this.isComplete=!0,this.emitEvent(t,[this]),this.emitEvent("always",[this]),this.jqDeferred){var e=this.hasAnyBroken?"reject":"resolve";this.jqDeferred[e](this)}},r.prototype=Object.create(e.prototype),r.prototype.check=function(){var t=this.getIsImageComplete();return t?void this.confirm(0!==this.img.naturalWidth,"naturalWidth"):(this.proxyImage=new Image,this.proxyImage.addEventListener("load",this),this.proxyImage.addEventListener("error",this),this.img.addEventListener("load",this),this.img.addEventListener("error",this),void(this.proxyImage.src=this.img.src))},r.prototype.getIsImageComplete=function(){return this.img.complete&&void 0!==this.img.naturalWidth},r.prototype.confirm=function(t,e){this.isLoaded=t,this.emitEvent("progress",[this,this.img,e])},r.prototype.handleEvent=function(t){var e="on"+t.type;this[e]&&this[e](t)},r.prototype.onload=function(){this.confirm(!0,"onload"),this.unbindEvents()},r.prototype.onerror=function(){this.confirm(!1,"onerror"),this.unbindEvents()},r.prototype.unbindEvents=function(){this.proxyImage.removeEventListener("load",this),this.proxyImage.removeEventListener("error",this),this.img.removeEventListener("load",this),this.img.removeEventListener("error",this)},s.prototype=Object.create(r.prototype),s.prototype.check=function(){this.img.addEventListener("load",this),this.img.addEventListener("error",this),this.img.src=this.url;var t=this.getIsImageComplete();t&&(this.confirm(0!==this.img.naturalWidth,"naturalWidth"),this.unbindEvents())},s.prototype.unbindEvents=function(){this.img.removeEventListener("load",this),this.img.removeEventListener("error",this)},s.prototype.confirm=function(t,e){this.isLoaded=t,this.emitEvent("progress",[this,this.element,e])},o.makeJQueryPlugin=function(e){e=e||t.jQuery,e&&(h=e,h.fn.imagesLoaded=function(t,e){var i=new o(this,t,e);return i.jqDeferred.promise(h(this))})},o.makeJQueryPlugin(),o});</script>
+
 <script src="./script.js"></script>
+
+<script src="./js/jquery.slim.js" type="text/javascript"></script>
+<script src="./js/anime.min.js" type="text/javascript"></script>
+<script src="./js/animation.js" type="text/javascript"></script>
+<script src="./js/fitty.min.js" type="text/javascript"></script>
+<script>
+  (function() {
+    var tiltSettings = [
+    {},
+    {
+      movement: {
+        imgWrapper : {
+          translation : {x: 10, y: 10, z: 30},
+          rotation : {x: 0, y: -10, z: 0},
+          reverseAnimation : {duration : 200, easing : 'easeOutQuad'}
+        }
+      }
+    }
+
+  ];
+
+    function init() {
+      var idx = 0;
+      [].slice.call(document.querySelectorAll('a.tilter')).forEach(function(el, pos) { 
+        idx = pos%2 === 0 ? idx+1 : idx;
+        new TiltFx(el, tiltSettings[idx-1]);
+      });
+    }
+
+    // Preload all images.
+    imagesLoaded(document.querySelector('main'), function() {
+      document.body.classList.remove('loading');
+      init();
+    });
+
+  })();
+  </script>
 </body>
 </html>
 

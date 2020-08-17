@@ -218,8 +218,14 @@ p.pCaseStudy{
   margin-bottom: -6px;
 }
 
+p.EN{
+  font-size: var(--font-s);
+  color: #f75534;
+  max-width: 50%;
+}
 
-li.liCaseStudy{
+
+li.liCaseStudy, li.JourneyMap, div.journeyArrows{
   font-size: var(--font-s);
   line-height: 120%;
   padding: 4px 0px;
